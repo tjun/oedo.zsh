@@ -3,21 +3,34 @@
 __oedo.zsh__ provides a simple prompt for zsh.
 Colorshemes are inspired by tokyo trains.
 
+Print time on left prompt, print path and git branch on right prompt.
+
 ###Color Schemes
 
 
 oedo(default):
 
+![oedo](https://github.com/tjun/oedo.zsh/blob/master/img/oedo.png)
+
 mita:
+
+![mita](https://github.com/tjun/oedo.zsh/blob/master/img/mita.png)
 
 shinjuku:
 
+![shinjuku](https://github.com/tjun/oedo.zsh/blob/master/img/shinjuku.png)
+
 oedo-light:
+
+![oedo-light](https://github.com/tjun/oedo.zsh/blob/master/img/oedo-light.png)
 
 mita-light:
 
+![mita-light](https://github.com/tjun/oedo.zsh/blob/master/img/mita-light.png)
+
 shinjuku-light:
 
+![shinjuku-light](https://github.com/tjun/oedo.zsh/blob/master/img/shinjuku-light.png)
 
 ##Installation
 
