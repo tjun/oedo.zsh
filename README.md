@@ -49,7 +49,7 @@ source ~/.zshrc
 
 ```
 export OEDO_COLORSCHEME=shinjuku-light # this is optional. use oedo color default.
-zplug 'tjun/oedo.zsh'
+zplug 'tjun/oedo.zsh', use:oedo.zsh
 ```
 
 ##License
