@@ -38,7 +38,7 @@ install with the following commands.
 You can specify colorscheme with `OEDO_COLORSCHEME` environment variable.
 
 ```
-OEDO_COLORSCHEME=mita # this is optional. use oedo color default.
+export OEDO_COLORSCHEME=mita # this is optional. use oedo color default.
 
 git clone https://github.com/tjun/oedo.zsh.git ~/path/to/oedo
 echo "test -f ~/path/to/oedo/oedo.zsh && source ~/.oedo/oedo.zsh" >> ~/.zshrc
@@ -48,7 +48,7 @@ source ~/.zshrc
 ### Install with zplug
 
 ```
-OEDO_COLORSCHEME=shinjuku-light # this is optional. use oedo color default.
+export OEDO_COLORSCHEME=shinjuku-light # this is optional. use oedo color default.
 zplug 'tjun/oedo.zsh'
 ```
 
