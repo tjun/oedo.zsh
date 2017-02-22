@@ -92,7 +92,7 @@ fi
         color=(${(z)$(eval "echo \$OEDO_COLOR_LEFT${j}_${i}")})
         content+="%{"
         content+=$'\e'"[48;5;${color[2]}m%}"
-        content+="$flag%{"
+        content+="$flag %{"
         content+=$'\e'"[38;5;${color[1]}m%}"
 
         # set content
@@ -102,7 +102,7 @@ fi
         done
         content+=$(eval "echo \${(j: $subsepl :)prompts}")
 
-        content+="%{"$'\e'"[38;5;${color[2]}m%}"
+        content+="%{"$'\e'"[38;5;${color[2]}m%} "
         flag="$sepl"
       fi
     done
@@ -126,13 +126,13 @@ fi
       RPROMPT+=$'\e'"[38;5;${color[1]}m"
       RPROMPT+=$'\e'"[48;5;${color[2]}m"
       RPROMPT+="%}"
-#     RPROMPT+=" "
+      RPROMPT+=" "
 
       prompts=()
 
       prompts=(${OEDO_COMPONENTS[$target]})
       RPROMPT+="${(j: ${subsepr} :)prompts}"
-      #RPROMPT+=" "
+      RPROMPT+=" "
     fi
   done
   if [[ "$RPROMPT" != '' ]]; then
