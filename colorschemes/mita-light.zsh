@@ -1,14 +1,14 @@
 (){
   local i
   for i in {1..$OEDO_LEFT_LINE}; do
-    eval "OEDO_COLOR_LEFT${i}_1=(15 19)"
-    eval "OEDO_COLOR_LEFT${i}_2=(15 16)"
-    eval "OEDO_COLOR_LEFT${i}_3=(15 238)"
-    eval "OEDO_COLOR_LEFT${i}_4=(15 240)"
+    eval "OEDO_COLOR_LEFT${i}_1=(15 21)"
+    eval "OEDO_COLOR_LEFT${i}_2=(15 238)"
+    eval "OEDO_COLOR_LEFT${i}_3=(15 240)"
+    eval "OEDO_COLOR_LEFT${i}_4=(15 242)"
   done
 }
 
 OEDO_COLOR_RIGHT1=(237 110)
-OEDO_COLOR_RIGHT2=(39 16)
+OEDO_COLOR_RIGHT2=(39 238)
 OEDO_COLOR_RIGHT3=(15 236)
 OEDO_COLOR_RIGHT4=(15 234)
