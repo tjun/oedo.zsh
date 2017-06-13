@@ -1,11 +1,11 @@
-#oedo.zsh
+# oedo.zsh
 
 __oedo.zsh__ provides a simple prompt for zsh.
 Colorshemes are inspired by tokyo trains.
 
 Print time on left prompt, print path and git branch on right prompt.
 
-###Color Schemes
+### Color Schemes
 
 
 oedo(default):
@@ -32,7 +32,7 @@ shinjuku-light:
 
 ![shinjuku-light](https://github.com/tjun/oedo.zsh/blob/master/img/shinjuku-light.png)
 
-##Installation
+## Installation
 
 install with the following commands.
 You can specify colorscheme with `OEDO_COLORSCHEME` environment variable.
@@ -52,15 +52,15 @@ export OEDO_COLORSCHEME=shinjuku-light # this is optional. use oedo color defaul
 zplug 'tjun/oedo.zsh', use:oedo.zsh
 ```
 
-##License
+## License
 
 This software is released under the MIT License, see LICENSE.
 
-##TODO
+## TODO
 
   * add more *train* color schemes
 
-##Contributation
+## Contributation
 
   1. fork this repository (<https://github.com/tjun/oedo.zsh/fork>)
   2. clone your workspace (`git clone https://github.com/<your-name>/oedo.zsh`)
