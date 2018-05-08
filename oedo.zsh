@@ -26,6 +26,7 @@ OEDO_LEFT1_2=(lprompt)
 #OEDO_RIGHT1=(time)
 OEDO_RIGHT1=(current_path)
 OEDO_RIGHT2=(git_prompt)
+OEDO_RIGHT3=(kube_prompt)
 
 
 # oedo.zsh find colorscheme using this pathes

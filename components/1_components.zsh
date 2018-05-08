@@ -8,6 +8,7 @@ OEDO_COMPONENTS+=(
   time "%*"
   datetime "%d %*"
   git_prompt "\$(git_prompt_info)"
+  kube_prompt "($ZSH_KUBECTL_PROMPT)"
   lprompt "$"
 )
 
